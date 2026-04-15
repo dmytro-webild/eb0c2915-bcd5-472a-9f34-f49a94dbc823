@@ -113,8 +113,8 @@ export default function LandingPage() {
       title="About Our Expertise"
       description="With years of experience in agricultural machinery, our team delivers top-tier service and parts to minimize your downtime and maximize yield."
       metrics={[
-        { value: "500+", icon: Shield },
-        { value: "10k+", icon: TrendingUp },
+        { label: "Total Experience", value: "500+" },
+        { label: "Satisfied Farmers", value: "10k+" },
       ]}
       useInvertedBackground={false}
       imageSrc="http://img.b2bpic.net/free-photo/brutal-tattooed-bearded-mechanic-specialist-repairs-car-engine-which-is-raised-hydraulic-lift-garage-service-station_613910-5606.jpg"
