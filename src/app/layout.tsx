@@ -11,8 +11,8 @@ import { Figtree } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'Tractor Spare Parts & Repair | Genuine OEM Parts & Expert Mechanic',
-  description: 'Find genuine tractor spare parts and professional repair services. We supply OEM Mahindra and major brand parts. Book engine repair or get a quote today.',
+  title: "New Hadoti Tractor Service Spare Parts & Repair | Genuine OEM Parts & Expert Mechanic",
+  description: "Find genuine tractor spare parts and professional repair services. We supply OEM Mahindra and major brand parts. Book engine repair or get a quote today.",
   keywords: ["tractor spare parts, tractor repair service, OEM tractor parts, Mahindra tractor parts, tractor maintenance, heavy equipment repair"],
   openGraph: {
     "title": "Tractor Spare Parts & Repair Services",
