@@ -2,6 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
+import { Shield, TrendingUp } from "lucide-react";
 import ContactText from '@/components/sections/contact/ContactText';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
@@ -113,8 +114,8 @@ export default function LandingPage() {
       title="About Our Expertise"
       description="With years of experience in agricultural machinery, our team delivers top-tier service and parts to minimize your downtime and maximize yield."
       metrics={[
-        { value: "500+", label: "Farmers Served" },
-        { value: "10k+", label: "Parts Supplied" },
+        { value: "500+", icon: Shield },
+        { value: "10k+", icon: TrendingUp },
       ]}
       useInvertedBackground={false}
       imageSrc="http://img.b2bpic.net/free-photo/brutal-tattooed-bearded-mechanic-specialist-repairs-car-engine-which-is-raised-hydraulic-lift-garage-service-station_613910-5606.jpg"
