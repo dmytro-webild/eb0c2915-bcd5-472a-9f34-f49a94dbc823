@@ -40,8 +40,7 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitTestimonial
-      background={{
-        variant: "gradient-bars"}}
+      background={{ variant: "gradient-bars" }}
       title="Genuine Tractor Parts & Expert Repair — All in One Place"
       description="Don't let downtime stop your productivity. Find the exact OEM parts you need or book an expert repair service to get your tractor back in the field faster."
       testimonials={[
@@ -114,8 +113,8 @@ export default function LandingPage() {
       title="About Our Expertise"
       description="With years of experience in agricultural machinery, our team delivers top-tier service and parts to minimize your downtime and maximize yield."
       metrics={[
-        { value: "500+", icon: Shield },
-        { value: "10k+", icon: TrendingUp },
+        { value: "500+", label: "Farmers Trust Us" },
+        { value: "10k+", label: "Parts Shipped" },
       ]}
       useInvertedBackground={false}
       imageSrc="http://img.b2bpic.net/free-photo/brutal-tattooed-bearded-mechanic-specialist-repairs-car-engine-which-is-raised-hydraulic-lift-garage-service-station_613910-5606.jpg"
